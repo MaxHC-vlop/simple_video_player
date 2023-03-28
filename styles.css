@@ -2,3 +2,7 @@ button {
     border: none;
     cursor: pointer;
 }
+
+.button_menu {
+    background-color: black;
+}
