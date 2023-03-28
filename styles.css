@@ -1,6 +1,11 @@
 button {
     border: none;
     cursor: pointer;
+    background-color: black;
+}
+
+i {
+    color: white;
 }
 
 .button_menu {
