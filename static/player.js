@@ -1,6 +1,6 @@
 function createPlayer({
     elementId,
-    src='https://dvmn.org/media/filer_public/78/db/78db3456-3fd3-4504-9ed9-d2d1fd843c0b/highest_peak.mp4'
+    src='https://ia601509.us.archive.org/10/items/Rick_Astley_Never_Gonna_Give_You_Up/Rick_Astley_Never_Gonna_Give_You_Up.mp4'
   }){
     const player = Playable.create({
       fillAllSpace: true,
