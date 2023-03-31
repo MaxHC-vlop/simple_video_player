@@ -11,7 +11,7 @@ def rebuild():
 
     template = env.get_template(template_page)
     rendered_page = template.render()
-    
+
     with open('index.html', 'w', encoding="utf-8") as file:
         file.write(rendered_page)
 
