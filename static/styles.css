@@ -1,8 +1,8 @@
 .video-player-container {
-    width: 720px;
-    height: 600px;
     display: flex;
     flex-direction: column;
+    width: 800px;
+    height: 600px;
 }
 
 .player-shadow {
@@ -28,9 +28,23 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 39px;
     margin: 1px;
+}
+
+.play-button {
+    padding: 5px;
+}
+
+.volume-button {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.fullscreen-button {
+    padding: 6px 8px 5px 6px;
+    font-size: 17px;
 }
 
 .empty-menu {

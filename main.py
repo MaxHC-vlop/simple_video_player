@@ -18,11 +18,8 @@ def rebuild():
 
 def main():
     rebuild()
-
     server = Server()
-
     server.watch('template.html', rebuild)
-
     server.serve(root='.')
 
 
