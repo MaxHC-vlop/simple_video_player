@@ -3,6 +3,9 @@
 <head>
   <title>NeverGonna</title>
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link type="Image/x-icon" href="./static/favicon.ico" rel="icon">
   <link rel="stylesheet" href="./static/styles.css">
 </head>
@@ -25,7 +28,14 @@
         <i class="fa fa-volume-up"></i>
       </button>
       
-      <div class="empty-menu"></div>
+      <div class="empty-menu">
+        <div class="current-time">
+          <span class="js-current-time"></span>
+        </div>
+        <div class="video-duration">
+          <span class="js-duration"></span>
+        </div>
+      </div>
 
       <button class="js-fullscreen-button player-button fullscreen-button">
         <i class="fa fa-expand"></i>

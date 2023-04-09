@@ -50,5 +50,16 @@
 .empty-menu {
     display: flex;
     flex-grow: 1;
-    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.current-time {
+    padding: 5px 0px 7px 4px;
+}
+
+.video-duration {
+    padding: 5px 2px 4px 1px;
 }
