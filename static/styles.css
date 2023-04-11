@@ -1,3 +1,5 @@
+:focus { outline: none; }
+
 .video-player-container {
     display: flex;
     flex-direction: column;
