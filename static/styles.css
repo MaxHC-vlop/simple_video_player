@@ -85,4 +85,13 @@
     border-radius: 50%;
     display: inline-block;
     margin: 2px 7px -1px -15px;
+    opacity: 0;
+    transition-timing-function: ease-out;
+    transition: 600ms;
+}
+
+.viewing-panel:hover .dot {            
+    opacity: 1;
+    transition-timing-function: ease-in;
+    transition: 600ms;
 }
